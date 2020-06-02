@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+
+.todo-form {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 2rem;
+}
+
+input {
+  border-radius: 2px;
+  outline: 0;
+  font-size: 1rem;
+}
+
+input[type=text] {
+  border: 1px solid rgb(125, 4, 181);
+  padding: .95rem 1rem;
+}
+
+input[type=submit] {
+  padding: 1rem 1.5rem;
+  background: rgb(125, 4, 181);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+  letter-spacing: .04rem;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+  transform: translateY(1px);
+}
+
+input[type=submit]:disabled {
+  cursor: not-allowed;
+  background: rgba(125, 4, 181, .5);
+  transform: none;
+}

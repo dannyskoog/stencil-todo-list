@@ -1,0 +1,9 @@
+.app-home {
+  padding: 10px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+app-todo-list {
+  margin-top: 1rem;
+}

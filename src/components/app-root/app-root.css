@@ -1,0 +1,16 @@
+.app-root {
+  display: grid;
+}
+
+header {
+  background: rgb(125, 4, 181);
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: .7rem;
+}
